@@ -113,7 +113,7 @@ class ImageLabel(QLabel):
 
     def changeRectEb(self, index):
         rect_obj = self.rects[index]
-        new_eb = QInputDialog.getDouble(self, "New Error Bound For Region", "Type in the error bound for the selected region", value=rect_tuple[3], min=-1000, max=1000, decimals=10)
+        new_eb = QInputDialog.getDouble(self, "New Error Bound For Region", "Type in the error bound for the selected region", value=rect_obj.eb, min=-1000, max=1000, decimals=10)
         rect_obj.eb = new_eb
 
     def removeRect(self, index):

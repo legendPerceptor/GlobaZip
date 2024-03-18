@@ -19,7 +19,7 @@
      <x>470</x>
      <y>10</y>
      <width>481</width>
-     <height>191</height>
+     <height>211</height>
     </rect>
    </property>
    <property name="currentIndex">
@@ -206,13 +206,13 @@
     <attribute name="title">
      <string>SZ_REGION</string>
     </attribute>
-    <widget class="QWidget" name="">
+    <widget class="QWidget" name="layoutWidget">
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>10</y>
+       <y>-1</y>
        <width>443</width>
-       <height>143</height>
+       <height>171</height>
       </rect>
      </property>
      <layout class="QVBoxLayout" name="verticalLayout_6">
@@ -647,9 +647,9 @@
    <property name="geometry">
     <rect>
      <x>470</x>
-     <y>210</y>
+     <y>220</y>
      <width>481</width>
-     <height>251</height>
+     <height>241</height>
     </rect>
    </property>
    <property name="title">
